@@ -1,9 +1,10 @@
 ---
 title: JUnit浅谈
 date: 2016-07-19 11:57:33
-categories: 测试
+categories: Java测试
 tags:
 	- JUnit
+  - 测试
 	- Java测试
 ---
 # JUnit浅谈
