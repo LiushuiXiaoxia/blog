@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: LiushuiXiaoxia
-subtitle:
-description: https://liushuixiaoxia.github.io
-author: Leon
+title: MyCommons
+subtitle: Liushuixiaoxia http://mycommons.cn
+description: Liushuixiaoxia(流水不腐小夏) https://github.com/LiushuiXiaoxia
+author: 流水不腐小夏
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://liushuixiaoxia.github.io
+url: http://mycommons.cn/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -57,7 +57,7 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 10
+per_page: 5
 pagination_dir: page
 
 # Extensions

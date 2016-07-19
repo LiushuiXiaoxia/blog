@@ -123,6 +123,7 @@ font:
 social:
   Github: https://github.com/LiushuiXiaoxia
   Csdn: http://blog.csdn.net/guijiaoba
+  简书: http://www.jianshu.com/users/58771f980bac/latest_articles
   #LinkLabel: Link
 
 
@@ -132,7 +133,7 @@ social:
 #   Key is the name of the item and value is the name of FontAwsome icon. Key is case-senstive.
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
-  enable: true
+  enable: false
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
