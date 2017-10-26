@@ -70,3 +70,10 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:LiushuiXiaoxia/Liushuixiaoxia.github.io.git
+
+
+algolia:
+  applicationID: 'GRLHBBCD9E'
+  apiKey: '759ab3f5c09b132b3ed4842a44c53c45'
+  indexName: 'mycommons'
+  chunkSize: 5000

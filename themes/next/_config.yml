@@ -347,7 +347,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 55458ffca1f60dd283f11b9a7f82b262
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -572,7 +572,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:
