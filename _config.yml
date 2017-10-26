@@ -77,3 +77,15 @@ algolia:
   apiKey: '759ab3f5c09b132b3ed4842a44c53c45'
   indexName: 'mycommons'
   chunkSize: 5000
+
+plugins:
+
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
