@@ -6,7 +6,8 @@ tags:
     - gson
     - jackson
     - fastjson
-    - AndroidStudio插件
+    - Andorid Studio plugin
+    - plugin
     - 注解生成工具
 ---
 
