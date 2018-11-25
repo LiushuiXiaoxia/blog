@@ -1,5 +1,5 @@
 ---
-title: "Jenkins <j:otherwise> can't parse argument number: changelog.url 问题"
+title: Jenkins can't parse argument number changelog.url 问题
 date: 2018-11-26 00:17:13
 categories: Jenkins
 tags:
