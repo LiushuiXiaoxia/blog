@@ -26,7 +26,7 @@ We won't add sshpass because it makes it too easy for novice SSH users to  ruin 
 说明不安全，可不管，直接下载安装。
 
 ```
-brew install https://raw.github.com/eugeneoden/homebrew/eca9de1/Library/Formula/sshpass.rb  
+brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 ```
 
 ## sshpass使用姿势
