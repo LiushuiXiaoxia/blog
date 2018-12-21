@@ -19,7 +19,8 @@ Web开发中使用mybatis比较多，[MyBatis Plus](https://mp.baomidou.com/)是
 
 # 使用姿势
 
-本插件需要结合Spring Boot项目一起使用，如下所示，首先添加插件依赖，当前版本为[![Download](https://api.bintray.com/packages/liushui/maven/mpg/images/download.svg)](https://bintray.com/liushui/maven/mpg/_latestVersion)
+本插件需要结合Spring Boot项目一起使用，如下所示，首先添加插件依赖，当前版本为
+[ ![Download](https://api.bintray.com/packages/liushuixiaoxia/maven/mpg/images/download.svg) ](https://bintray.com/liushuixiaoxia/maven/mpg/_latestVersion)
 
 ```groovy
 buildscript {
@@ -28,7 +29,7 @@ buildscript {
     }
     repositories {
         maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
-        maven { url "https://liushui.bintray.com/maven" }
+        maven { url "https://dl.bintray.com/liushuixiaoxia/maven"  }
         mavenCentral()
         jcenter()
     }
