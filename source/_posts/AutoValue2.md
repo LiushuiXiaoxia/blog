@@ -18,6 +18,8 @@ tags:
 
 [插件Github地址](https://github.com/LiushuiXiaoxia/AutoValueConvert)
 
+<!-- more -->
+
 如，一个普通的Java Model:
 
 ```java

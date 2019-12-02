@@ -12,21 +12,11 @@ tags:
 ---
 <!-- TOC -->
 
-- [浅谈MongoDB数据库](#浅谈mongodb数据库)
-    - [简介](#简介)
-    - [MongoDB 介绍](#mongodb-介绍)
-        - [数据库安装](#数据库安装)
-    - [MongoDB使用](#mongodb使用)
-        - [MongoDB可视化工具](#mongodb可视化工具)
-    - [Java操作MongoDB](#java操作mongodb)
-    - [总结](#总结)
-    - [相关资料](#相关资料)
-
-<!-- /TOC -->
-
 ## 简介
 
 最近项目中需要分析Http报文，并且需要用数据库保存，刚刚开始打算用Mysql，后来咨询了老司机，老司机建议使用MongoDB来实现，所以特写一篇文章来总结下。
+
+<!-- more -->
 
 ## MongoDB 介绍
 

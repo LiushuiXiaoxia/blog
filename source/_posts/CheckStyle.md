@@ -25,6 +25,8 @@ Execution failed for task ':app:checkstyle'.
 
 经过查找资料获得，大致是这样的，Gradle3.5版本中默认使用的是CheckStyle7.2版本，3.3版本中使用的是5.9版本，有兼容性错误。
 
+<!-- more -->
+
 原文是这样的:
 
 ```

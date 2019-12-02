@@ -17,8 +17,9 @@ tags:
 有个场景是这样的A服务主要负责写入或者修改数据库中的数据，B服务主要负责读取，B服务使用缓存技术，当A发生了修改后，需要通知B来清除缓存。
 中间两个服务之间通知使用了Kafka，这个是本篇文章主要介绍的，关于 [缓存技术](https://github.com/LiushuiXiaoxia/SpringCacheDemo) 我也简单介绍过。
 
-## Kafka
+<!-- more -->
 
+## Kafka
 
 ### 简介
 

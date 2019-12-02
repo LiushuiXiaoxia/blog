@@ -16,6 +16,8 @@ tags:
 
 [Github地址](https://github.com/LiushuiXiaoxia/DatabindingConvert)
 
+<!-- more -->
+
 # 简介
 
 一个简单的Android Studio 插件，把当前的布局文件转化成Databinding的形式。

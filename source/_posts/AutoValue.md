@@ -10,11 +10,11 @@ tags:
 
 ---
 
-[TOC]
-
 最近看到几篇博客是关于AutoValue的，然后自己十分喜欢，一下子觉的这样写代码很**优雅**，所以决定自己也写一篇文章介绍下AutoValue。
 
 **本文最先发表于[Github](https://github.com/LiushuiXiaoxia/AutoValueDemo)，如有转载，请注明转载出处。**
+
+<!-- more -->
 
 # 前言
 

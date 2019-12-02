@@ -22,6 +22,8 @@ org.apache.commons.jelly.JellyTagException: jar:file:/Users/xiaqiulei/.jenkins/w
 
 排查了好久，才发现问题，原因是升级了一个插件导致的，经过一个多小时的排查，终于找到了，是jeknins中文语言包，卸载或者降级即可。
 
+<!-- more -->
+
 ```
 Localization: Chinese (Simplified)
 Jenkins 及其插件的简体中文语言包。

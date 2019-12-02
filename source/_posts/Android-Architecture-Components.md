@@ -13,11 +13,11 @@ tags:
 
 ---
 
-[TOC]
-
 ## 简介
 
 Google IO 2017发布Android Architecture Components，自己先研究了一下，蛮有意思的，特来记录一下。本文内容主要是参考[官方文档](https://developer.android.com/topic/libraries/architecture/index.html)以及自己的理解，如有错误之处，恳请指出。
+
+<!-- more -->
 
 ## Android Architecture Components
 

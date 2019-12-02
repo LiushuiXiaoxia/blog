@@ -10,13 +10,14 @@ tags:
 # JUnit浅谈
 
 - - - - -
-[TOC]
 
 # JUnit简介
+
 JUnit是一个Java语言的单元测试框架。它由肯特·贝克和埃里希·伽玛（Erich Gamma）建立，逐渐成为源于Kent Beck的sUnit的xUnit家族中为最成功的一个。JUnit用于实施对应用程序的单元测试，加快程序编制速度，同时提高编码的质量。
 这里是JUnit官网[http://junit.org/junit4/](http://junit.org/junit4/)
 JUnit最新的版本是5，这里讨论的是JUnit4版本。
 
+<!-- more -->
 
 # 示例
 ## 集成

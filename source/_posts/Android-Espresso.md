@@ -12,11 +12,12 @@ tags:
 
 - - - - -
 
-[TOC]
-
 # 简介
+
 Espresso 也是一款自动化测试的框架，和UiAutomator类似。
 基本上使用流程和UiAutomator类似。
+
+<!-- more -->
 
 **步骤：**
 

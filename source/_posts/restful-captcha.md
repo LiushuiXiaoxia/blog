@@ -12,27 +12,11 @@ tags:
 
 ---
 
-<!-- TOC -->
-
-- Restful风格的验证码
-- 接口
-    - 生成验证码
-        - 接口信息
-        - 前端显示
-    - 校验
-        - 接口信息
-        - 前端校验
-- 移动端使用
-    - Android Retrofit Api
-    - Android UI
-    - 效果展示
-- 其他
-
-<!-- /TOC -->
-
 原有的验证码使用流的方式，对移动端不友好，并且现在后端是分布式的微服务系统，原有的基于cookie的验证码方式，显得力不从心。
 
 Restful 风格的验证码，图片使用Base64编码，后端使用Redis存储验证码。Android 客户端使用Retrofit + OkHttp。
+
+<!-- more -->
 
 # 接口
 

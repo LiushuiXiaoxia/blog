@@ -11,8 +11,6 @@ tags:
 
 - - - 
 
-[TOC]
-
 # Mockito简介
 
 * 什么是mock？
@@ -20,6 +18,8 @@ tags:
 
 * 为什么需要Mock? 
 Mock是为了解决units之间由于耦合而难于被测试的问题。所以mock object是unit test的一部分。
+
+<!-- more -->
 
 # Mock的好处是什么? 
 

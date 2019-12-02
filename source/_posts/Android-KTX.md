@@ -10,28 +10,13 @@ tags:
 # Android KTX简介
 
 ---
-<!-- TOC -->
-
-- [Android KTX简介](#android-ktx简介)
-    - [介绍](#介绍)
-    - [主要功能](#主要功能)
-        - [字符串转为URI](#字符串转为uri)
-        - [SharedPreferences](#sharedpreferences)
-        - [Path](#path)
-        - [View的onPreDraw监听](#view的onpredraw监听)
-    - [代码接入](#代码接入)
-    - [原理介绍](#原理介绍)
-        - [Extensions](#extensions)
-        - [Lambdas](#lambdas)
-        - [Default Arguments](#default-arguments)
-    - [相关链接](#相关链接)
-
-<!-- /TOC -->
 
 ## 介绍
 
 昨天Google爸爸又发布了一个Android工具库，是使用Kotlin实现了。自从17年5月份声明支持Kotlin作为Android官方开发语言以来，Google爸爸对Kotlin的态度还是很积极的。
 而且Jake大神后面也加入了Google，从博客的内容来看，也是这个类库也是出自Jake大神之手，所以特来拜读下。
+
+<!-- more -->
 
 ## 主要功能
 

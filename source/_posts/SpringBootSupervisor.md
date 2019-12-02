@@ -20,6 +20,8 @@ supervisor是用Python开发的一套通用的进程管理程序，能将一个�
 
 什么意思呢？就是说，原先启动的Spring boot项目，正常情况下可以一直运行，但是如果程序中出现了Bug，程序会自动退出，那么服务就不可用了，可以使用用Supervisor来管理服务，当程序退出后服务可以自动重启。
 
+<!-- more -->
+
 ## 安装
 
 安装supervisor很简单，我这边使用的是ubuntu，直接用`apt-get`安装即可，命令是`sudo apt-get install supervisor`。

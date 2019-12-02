@@ -14,48 +14,13 @@ tags:
 
 ---
 
-<!-- TOC -->
-
-- [Android Http网络开发神兵利器](#android-http网络开发神兵利器)
-- [Http协议](#http协议)
-    - [HTTP简介](#http简介)
-    - [主要特点](#主要特点)
-    - [Request](#request)
-    - [Response](#response)
-    - [Code](#code)
-    - [Method](#method)
-    - [Header](#header)
-- [网络请求库](#网络请求库)
-    - [URLConnection](#urlconnection)
-    - [Apache HttpClient](#apache-httpclient)
-    - [Volley](#volley)
-    - [OkHttp & Retrofit](#okhttp--retrofit)
-- [工具](#工具)
-    - [Charles](#charles)
-    - [PostMan & Paw](#postman--paw)
-    - [Chrome Dev Tools](#chrome-dev-tools)
-    - [curl](#curl)
-- [OkHttp相关](#okhttp相关)
-    - [logging-interceptor](#logging-interceptor)
-    - [Stetho](#stetho)
-    - [chuck](#chuck)
-- [其他](#其他)
-    - [RESTful](#restful)
-- [总结](#总结)
-    - [心得](#心得)
-    - [工具对比](#工具对比)
-        - [Charles & Fiddler](#charles--fiddler)
-        - [OkHttp相关](#okhttp相关-1)
-    - [其他建议](#其他建议)
-- [参考资料](#参考资料)
-
-<!-- /TOC -->
-
 本人在Android移动端开发已经有不少年的经验，经历颇多，感受颇深，特写下此文记录下在Android Http网络开发中的各种工具使用，如果有其他想法和建议，欢迎前来交流 xiaqiulei@126.com 。 本人文笔较差，请不要见怪。
 
 Android开发的时候，很多APP都是基于网络请求的，大部分应用都是基于http的，少部分是基于Socket的，本文主要介绍Android Http开发的主要实践和工具。
 
 本文最先发表于[Github](https://github.com/LiushuiXiaoxia/AndroidHttp)，如有转载，请注明转载出处。
+
+<!-- more -->
 
 # Http协议
 

@@ -9,20 +9,11 @@ tags:
 
 # Spring Cache与Redis结合使用
 
-<!-- TOC -->
-
-- [Spring Cache与Redis结合使用](#spring-cache与redis结合使用)
-    - [Redis](#redis)
-    - [创建Spring项目](#创建spring项目)
-    - [集成Redis](#集成redis)
-    - [Cache部分代码](#cache部分代码)
-
-<!-- /TOC -->
-
 ---
 
 前不久做了一个需要查询多，更新少的功能，老司机同事建议用Redis来做缓存，同时结合Spring Cache来做，特来总结下。
 
+<!-- more -->
 
 ## Redis
 

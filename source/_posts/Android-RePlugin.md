@@ -11,54 +11,6 @@ tags:
 
 ---
 
-<!-- TOC -->
-
-- [是时候来一波Android插件化了](#是时候来一波android插件化了)
-    - [前言](#前言)
-    - [Android开发演进](#android开发演进)
-    - [模块化介绍](#模块化介绍)
-    - [插件化介绍](#插件化介绍)
-    - [前提技术介绍](#前提技术介绍)
-        - [APK构成](#apk构成)
-            - [Manifest](#manifest)
-            - [Application](#application)
-            - [四大组件](#四大组件)
-            - [so](#so)
-            - [resource](#resource)
-            - [安装路径](#安装路径)
-        - [App启动流程介绍](#app启动流程介绍)
-            - [IPC & Binder](#ipc--binder)
-            - [AMS](#ams)
-        - [插件化技术问题与解决方案](#插件化技术问题与解决方案)
-            - [代码加载](#代码加载)
-                - [Java ClassLoader](#java-classloader)
-                - [Android ClassLoader](#android-classloader)
-                    - [PathClassLoader](#pathclassloader)
-                    - [DexClassLoader](#dexclassloader)
-            - [资源获取](#资源获取)
-            - [Hook](#hook)
-    - [主流框架方案](#主流框架方案)
-        - [Fragment加载](#fragment加载)
-        - [Activity代理](#activity代理)
-        - [Activity占坑](#activity占坑)
-    - [360RePlugin介绍](#360replugin介绍)
-        - [主要优势](#主要优势)
-        - [集成与Demo演示](#集成与demo演示)
-        - [原理介绍](#原理介绍)
-            - [host lib](#host-lib)
-            - [host gradle](#host-gradle)
-            - [plugin lib](#plugin-lib)
-            - [plugin gradle](#plugin-gradle)
-    - [其他插件化方案](#其他插件化方案)
-        - [Instant App](#instant-app)
-        - [淘宝Atlas](#淘宝atlas)
-        - [滴滴VirtualAPK](#滴滴virtualapk)
-        - [Small](#small)
-    - [总结](#总结)
-    - [相关资料](#相关资料)
-
-<!-- /TOC -->
-
 ## 前言
 
 今年（2017年）6月时候，有幸参加了在北京举行的GMTC大会，恰巧360的张炅轩大神分享了360的插件化方案—— [RePlugin](https://github.com/Qihoo360/RePlugin) ，听了以后，受益匪浅。
@@ -68,6 +20,8 @@ tags:
 因为插件化涉及到的东西比较多，由于篇幅的限制，很多知识点只是简单介绍一下，同时会给出相关链接，读者可以点击作参考。
 
 这几年，世面上就已经出现了不少几款插件化方案，同时热更新技术也是遍地开花。当时是比较抵触这类技术的，个人觉的这样会破坏Android的生态圈，但是毕竟出现了这么多的插件化方案，出现总是有道理的。本着学习的态度，还是要学习下插件化相关技术。
+
+<!-- more -->
 
 ## Android开发演进
 

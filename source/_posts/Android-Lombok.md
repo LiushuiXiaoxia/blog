@@ -12,13 +12,13 @@ tags:
 
 ---
 
-[TOC]
-
 ## 简介
 
 最近几天尝试了一把后端的工作，发现后端同学使用了一个第三库——[Lombok](https://projectlombok.org/)，用了一下，感觉还不错，特来介绍一下，感觉和以前介绍过的[AutoValue](https://github.com/LiushuiXiaoxia/AutoValueDemo)挺像的。
 
 Lombok 官网上面有个几分钟的视频，接单介绍了Lombok的用途，使用方法很简单，只需要依赖对应的jar文件，然后在对应的Java文件上使用注解即可。
+
+<!-- more -->
 
 先看个例子，下面是常见的一个Java一个实体类，含有field、setter、getter、equals、hashcode、toString方法。
 

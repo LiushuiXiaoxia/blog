@@ -27,6 +27,8 @@ GsonSerializedNameGen 是一个自动生成Gson SerializedName注解的插件。
 
 比如在请求网络数据时会需要把json反序列化成实体，然后下面是常见的一种方式。
 
+<!-- more -->
+
 ```java
 public class Bean {
 

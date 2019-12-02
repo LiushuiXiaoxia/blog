@@ -2,14 +2,17 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
+  },
   "hexo": {
     "version": "4.0.0"
   },
   "dependencies": {
     "hexo": "^4.0.0",
-    "hexo-algolia": "^1.2.3",
-    "hexo-deployer-git": "^2.1.0",
-    "hexo-generator-feed": "^1.2.2",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
@@ -18,6 +21,9 @@
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-server": "^1.0.0",
+    "hexo-algolia": "^1.2.3",
+    "hexo-deployer-git": "^2.1.0",
+    "hexo-generator-feed": "^1.2.2",
     "ejs": "2.5.5",
     "marked": "^0.7.0",
     "uglify-js": "2.6.0",

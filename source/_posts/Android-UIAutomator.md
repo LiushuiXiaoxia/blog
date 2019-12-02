@@ -13,14 +13,16 @@ tags:
 
 - - - - -
 
-[TOC]
-
 # 简介
+
 Uiautomator是谷歌推出的，用于UI自动化测试的工具，也就是普通的手工测试，点击每个控件元素看看输出的结果是否符合预期。比如登陆界面分别输入正确和错误的用户名密码然后点击登陆按钮看看是否能否登陆以及是否有错误提示等。
 
 注意：UI Automator测试框架是基于instrumentation的API，运行在Android JunitRunner 之上，同时UI Automator Test只运行在Android 4.3(API level 18)以上版本。
 
+<!-- more -->
+
 # 准备
+
 集成UI Automator，首先需要保证App项目已经依赖了Gradle Testing。然后在gradle中添加如下依赖即可。
 
 ```groovy
