@@ -1,9 +1,12 @@
-# <div align="center"><a href="https://github.com/iissnan/hexo-theme-next"><img align="center" width="56" height="56" src="../../blob/master/source/images/logo.svg"></a> e x T</div>
+<h1 align="center">This repository is no longer maintained! :warning:</h1>
+<h2 align="center">The community-maintained version is here: <a href="https://github.com/theme-next/hexo-theme-next">NexT v6 and v7 :triangular_flag_on_post:</a></h2>
+
+<h1 align="center">NexT</h1>
 
 <p align="center">NexT is a high quality elegant <a href="http://hexo.io">Hexo</a> theme. It is crafted from scratch, with love.</p>
 
 [![gitter-image]][gitter-url]
-[![mnt-image]][commits-url]
+[![mnt-image]](https://github.com/theme-next/hexo-theme-next)
 [![travis-image]][travis-url]
 [![rel-image]][releases-url]
 [![hexo-image]][hexo-url]
@@ -13,10 +16,10 @@
 
 ## Live Preview
 
-* :heart_decoration: Muse scheme: [XiaMo](https://notes.wanghao.work) | [OAwan](https://oawan.me) | [Hui Wang](http://hui-wang.info)
+* :heart_decoration: Muse scheme: [LEAFERx](https://leaferx.online) | [XiaMo](https://notes.wanghao.work) | [OAwan](https://oawan.me)
 * :six_pointed_star: Mist scheme: [Jeff](https://blog.zzbd.org) | [uchuhimo](http://uchuhimo.me) | [xirong](http://www.ixirong.com)
-* :pisces: Pisces scheme: [Vi](http://notes.iissnan.com) | [Acris](https://blog.mrx.one) | [Rainy](https://rainylog.com)
-* :gemini: Gemini scheme: [Ivan.Nginx](https://almostover.ru) | [Alynx](http://sh.alynx.xyz) | [Raincal](https://raincal.top)
+* :pisces: Pisces scheme: [Vi](http://notes.iissnan.com) | [Acris](https://acris.me) | [Rainy](https://rainylog.com)
+* :gemini: Gemini scheme: [Ivan.Nginx](https://almostover.ru) | [Raincal](https://raincal.com) | [Dandy](https://dandyxu.me)
 
 More NexT examples [here](https://github.com/iissnan/hexo-theme-next/issues/119).
 
@@ -107,7 +110,7 @@ More NexT examples [here](https://github.com/iissnan/hexo-theme-next/issues/119)
     theme: next
 
 ### Bugs
-For those who also encounter **Error: Cannot find module 'hexo-util'** [issue](https://github.com/iissnan/hexo-theme-next/issues/1490), please check your NPM version. 
+For those who also encounter **Error: Cannot find module 'hexo-util'** [issue](https://github.com/iissnan/hexo-theme-next/issues/1490), please check your NPM version.
 
 - `> 3`: Still not work. Please remove `node_modules` directory and reinstall using `npm install`.
 - `< 3`: Please add `hexo-util` explicitly via `npm install --save-dev hexo-util` to you site package deps.
@@ -133,7 +136,7 @@ Currently, it is not smooth to update NexT theme from pulling or downloading new
 1. Configurations are splited into two pieces
 2. Users maybe confuse which place should be for options
 
-In order to resolve this issue, NexT will take advantage of Hexo [Data files](https://hexo.io/docs/data-files.html). Because Data files is introduced in Hexo 3, so you need upgrade Hexo to 3.0 (or above) to use this feature.  
+In order to resolve this issue, NexT will take advantage of Hexo [Data files](https://hexo.io/docs/data-files.html). Because Data files is introduced in Hexo 3, so you need upgrade Hexo to 3.0 (or above) to use this feature.
 
 If you prefer Hexo 2.x, you can still use the old approach for configurations. NexT is still compatible with Hexo 2.x.
 
@@ -152,6 +155,7 @@ With this feature, now you can put all your configurations into one place (`sour
 ## Features
 
 ### Multiple languages support, including:
+:cn: Simplified Chinese & Traditional Chinese.<br>
 :us: English<br>
 :ru: Russian<br>
 :fr: French<br>
@@ -161,7 +165,8 @@ With this feature, now you can put all your configurations into one place (`sour
 :portugal: Portuguese (Brazil)<br>
 :kr: Korean<br>
 :it: Italian<br>
-:cn: Simplified Chinese & Traditional Chinese.
+:netherlands: Dutch<br>
+:vietnam: Vietnamese
 
 Default language is English.
 
@@ -179,6 +184,8 @@ language: en
 # language: pt-BR
 # language: ko
 # language: it
+# language: nl-NL
+# language: vi
 ```
 
 Set `language` field as following in site `_config.yml` to change to Chinese.
